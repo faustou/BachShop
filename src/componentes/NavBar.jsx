@@ -38,7 +38,7 @@ function Header(){
                 <Navbar.Offcanvas
                   id={`offcanvasNavbar-expand-${expand}`}
                   aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-                  placement="end"
+                  placement="start"
                 >
                   <Offcanvas.Header closeButton>
                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
@@ -57,7 +57,7 @@ function Header(){
                             )} 
                           </NavDropdown>
                         </div>
-                        <NavLink to='/gotero-personalizado' className='menuEnlace menu'> CONJUNTO DE REMEDIOS </NavLink>
+                        <NavLink to='/gotero-personalizado' className='menuEnlace menu'> PERSONALIZADO </NavLink>
                         <NavLink to='/caja-completa' className='menuEnlace menu'> CAJAS DE REMEDIOS </NavLink>
                         <NavLink to='/contact' className='menuEnlace menu'> CONTACTO </NavLink>
                     </Nav>
