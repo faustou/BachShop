@@ -1,0 +1,21 @@
+@import '../scss/variables';
+
+.searcher-container{
+    display: flex;
+    background-color: $main-color;
+    color: $secondary-color;
+    .search-component{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        width: 35px;
+        background-color: $main-color;
+    }
+    input{
+        border: 4px solid $main-color;
+        background-color: $secondary-color;
+        color: $main-color;
+        font-weight: 600;
+    }
+}

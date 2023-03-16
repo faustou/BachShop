@@ -1,0 +1,22 @@
+@import '../scss/variables';
+.cart {
+    position: relative;
+    width: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    img {
+        width: 50px;
+        margin-left: 1rem;
+    }
+    span {
+        position: absolute;
+        height: 22px;
+        width: 22px;
+        top: 4px;
+        right: -23px;
+        text-align: center;
+        color: $tertiary-color;
+        background-color: $main-color;
+        border-radius: 50%;
+    }
+}

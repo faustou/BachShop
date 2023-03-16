@@ -1,0 +1,84 @@
+@import '../scss/variables';
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background-color: $main-color;
+    .contenedorFooter {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 3rem;
+        .redes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            position: relative;
+            top: -120px;
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #D0B8A8;
+                width: 35px;
+                height: 35px;
+                border-radius: 25px;
+                margin-top: 1rem;
+            }
+        }
+        .enlaces {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            margin-top: 1rem;
+            height: 70px;
+            a {
+                text-decoration: none;
+                color: $tertiary-color!important;
+            }
+        }
+    }
+    .by {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #D0B8A8;
+        height: 60px;
+        h2{
+            font-size: 1rem;
+            font-style: oblique;
+            font-weight: 700;
+            margin-top: 0.3rem;
+            a{
+                text-decoration: none;
+                color: aqua;
+            }
+        }
+        img {
+            height: 50px;
+        }
+    }
+    .logoFooter{
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.2rem;
+            text-decoration: none;
+            img {
+                height: 40px;
+            }
+            .nombreBrandFooter {
+                color: #85586F;
+                margin-top: 1.4rem;
+                font-size: 1.3rem;
+                font-weight: 700;
+                font-style: oblique;
+                
+            }
+        }
+    }
+}

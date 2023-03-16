@@ -1,0 +1,82 @@
+.header {
+    background-color: #D0B8A8!important;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-around;
+    .menuEnlace{
+        margin-top: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: #85586F;
+        text-align: center;
+        border-radius: 15px;
+        padding: 15px;
+        background-color: #DFD3C3;
+        border: #85586F 2px solid;
+    }
+    .menuEnlaceDrop{
+        margin-top: 2rem;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: #85586F;
+        text-align: center;
+        border-radius: 15px;
+        padding: 7px;
+        background-color: #DFD3C3;
+        border: #85586F 2px solid;
+    }
+    .menu{
+        margin-top: 2rem;
+    }
+    .headerLogo {
+        width: 60px;
+    }
+    .logo a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #85586F;
+        font-size: 2rem;
+        font-weight: 700;
+        font-style: oblique;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.liHeader {
+    margin-left: 1rem;
+    align-items: center;
+}
+a{
+    text-decoration: none!important;
+    color: #85586F!important;
+}
+
+//Boostrap classes.
+.offcanvas-body, .offcanvas-header {
+    background-color: #D0B8A8!important;
+    justify-content: space-around;
+
+}
+.offcanvas.show {
+    background-color: #D0B8A8;
+}
+.flex-grow-1 {
+    flex-grow: none;
+    margin-bottom: 1rem!important;
+}
+.offcanvas-body {
+    align-items: center;
+}
+.pe-3 {
+    margin-bottom: 1rem!important;
+}
+.nav-link {
+    color: #FFF;
+}

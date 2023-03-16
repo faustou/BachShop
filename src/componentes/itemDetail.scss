@@ -1,0 +1,46 @@
+@import '../scss/variables';
+
+.itemDetail{
+    background-color: $tertiary-color;
+    padding-top: 1rem;
+    .detalleProducto p{
+        height: 9rem;
+        font-size: 1.2rem;
+        text-align: start;
+        margin-left: 1rem;
+    }
+}
+.infoD img {
+    transition: all 400ms ease;
+}
+.infoD img:hover {
+    transform: translateY(-5%);
+}
+.descripcion {
+    background-color: $secondary-color;
+    border: 1px solid $main-color;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    h3 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        color: $main-color;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: bold;
+        border-bottom: 2px solid $main-color;
+        padding-bottom: 10px;
+      }
+      
+      p {
+        min-width: 305px;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color: #333;
+      }
+}
+.active {
+    background-color: $secondary-color!important;
+    color: $main-color!important;
+}

@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #85586F;
+}
+
+@media screen and (max-width: 1400px) {
+    .menuEnlace{
+        margin-top: 1.2rem;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+    .menuEnlaceDrop{
+        margin-top: 1.2rem;
+
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+    .infoD {
+        flex-direction: column!important;
+    }
+    .infoD img {
+        width: 300px!important;
+    }
+    .contenedorFooter {
+        flex-direction: column;
+        gap: 0px!important;
+    }
+}
+@media screen and (max-width: 1150px){
+    .menuEnlace{
+        font-size: 0.8rem;
+        height: 45px;
+    }
+    .logo a {
+        font-size: 1.5rem;
+        font-weight: 600;
+        gap: 0.2rem;
+    }
+    .headerLogo {
+        width: 50px;
+    }
+    .cart img{
+        width: 40px;
+    }
+    .cart span{
+        height: 18px;
+        width: 18px;
+    }
+    .navbar{
+        gap: 0.5rem;
+    }
+    .contenedorFooter {
+        flex-direction: column;
+        gap: 0px!important;
+    }
+}
+@media screen and (max-width: 930px){
+    .menuEnlace{
+        font-size: 0.7rem;
+        height: 40px;
+    }
+    .logo a {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .headerLogo {
+        width: 35px;
+    }
+    header {
+        height: 80px;
+    }
+    .menuEnlace{
+        margin-top: 0rem;
+    }
+    .contenedorFooter {
+        flex-direction: column;
+        gap: 0px!important;
+    }
+}
+@media screen and (max-width: 700px){
+    header{
+        height: 250px;
+    }
+    .navbar{
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+    .menuEnlace{
+        width: 170px;
+    }
+    .enlaces a{
+        font-size: 12px;
+    }
+    .enlaces {
+        margin: 0px 1rem 0px 1rem;
+    }
+    .by h2 {
+        font-size: 10px!important;
+    }
+    .logoFooter a img {
+        height: 25px!important;
+    }
+    .nombreBrandFooter {
+        font-size: 13px!important;
+        margin-top: 1rem!important;
+    }
+}
+@media screen and (max-width: 500px){
+    .enlaces{
+        gap: 1rem!important;
+    }
+}
+.contenedorFooter {
+    flex-direction: column;
+    gap: 0px!important;
+
+}
+main {
+    min-height: 80vh;
+    margin: 20px;
+}
+.input {
+    height: 35px;
+    width: 90px;
+    text-align: center;
+}
+
+.infoD {
+    margin: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    gap: 3rem;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.infoD img {
+    width: 600px;
+    border-radius: 15px;
+}
+.infoCompra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #85586F;
+}
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1rem;
+    border-top: rgb(187, 184, 184) 1px solid;
+}
+.descripcion p {
+    align-items: flex-start;
+}
+.nav-tabs {
+    --bs-nav-link-color: rgb(0, 0, 0)!important;
+    --bs-nav-link-hover-color: rgb(0, 0, 0)!important;
+}
+p {
+    margin-bottom: 0rem!important;
+}
+/* BOTON DE COMPRAR */
+
+.btn-5,
+.btn-5 *,
+.btn-5 :after,
+.btn-5 :before,
+.btn-5:after,
+.btn-5:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-5 {
+    width: 145px;
+    height: 50px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #D0B8A8;
+  background-image: none;
+  color: #85586F;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-5:disabled {
+  cursor: default;
+}
+.btn-5:-moz-focusring {
+  outline: auto;
+}
+.btn-5 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-5 [hidden] {
+  display: none;
+}
+.btn-5 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  position: relative;
+}
+.btn-5 span {
+  mix-blend-mode: multiply;
+}
+.btn-5:before {
+  --tilt: 1.2rem;
+  background: #85586F;
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+  content: "";
+  display: block;
+  height: 100%;
+  left: calc(-100% - var(--tilt));
+  position: absolute;
+  top: 0;
+  transform: translateX(var(--progress, 0));
+  transition: transform 0.2s ease;
+  width: calc(100% + var(--tilt));
+}
+.btn-5:hover:before {
+  --progress: 100%;
+}
+
+/* FIN DEL BOTON*/
