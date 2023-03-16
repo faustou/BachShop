@@ -53,7 +53,7 @@ $ npm run dev
 ##### ◉ Diseño Responsive.
 
 ## DEPLOY 
-#### https://eloquent-malasada-519599.netlify.app
+#### bachshop.netlify.app
 
 ## TECHNOLOGIES
 
