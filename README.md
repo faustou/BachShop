@@ -53,7 +53,7 @@ $ npm run dev
 ##### ◉ Diseño Responsive.
 
 ## DEPLOY 
-#### bachshop.netlify.app
+#### https://bachshop.netlify.app
 
 ## TECHNOLOGIES
 
